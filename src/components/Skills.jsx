@@ -42,6 +42,18 @@ const Skills = () => {
             <i className="fa-brands fa-docker docker-icon"/>
             <p>Docker</p>
           </div>
+          <div className="skill-card java">
+            <i className="fa-brands fa-java java-icon"/>
+            <p>Java</p>
+          </div>
+          <div className="skill-card sql">
+            <i className="fa-solid fa-database sql-icon"/>
+            <p>SQL</p>
+          </div>
+          <div className="skill-card azure">
+            <img className="custom-azure-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpklEQVR4nO2YW4hOURTHf3wIMy6DyBgPIhJCvCge5Jq8SSkPyjWRKDU0yTx4I7e8UJMH8uKWXF7mQXmYkOLFpCRRUpNrLmXGONq1vjrtzjl773P5vu/U/td6OWfttf7/fc5ee+0NHh4eHg4YSYnRBmynpFgGvAamUEJsAX4DHZQMQ4BO4B/wAWiiRGgCbgGB2A7tfYUGRivwLES+FxgWej8OuEyDYjHwPkRe2QbNp1Oer6XBsBn4pZF/qPmo2f8i715qX6aui7UdGNTIq8W7RPM9rvnsoQF21qsaqaqp52GMDc1+1fqA8XXizlTgaQz5P8BMzf9YjO+pepBfCLyLIaTsZMTsf04QO7uW5GcAPxPIq99kgjamI8E/AO7UUsBtA5nDmn+z/OtJY4JaldU1BhJvI1rmoxbkg1qU1RHAKwOJrREthc3sB2J7ixRwxJD8BTBUG9PuQD6Qha6vn1wwDfhhSL4q4+wHYqeLEHDNkPR+xJiKVBdXAf3AnDzJL5e2IC6haiEWxYwdAzxPIeJuXuQr8m8nJeuyaK/1DtXG1uUh4IAhiToqTreIMx/45iigFxiehfxk4KshyQmHeOuBAUcR+7II6DIE75P+3gU7U5TViWnIL43o73XbnyawdJ8uIs64JlCb0RND0DeyM6eBin/TQcAAMM8lwS6LoJvIhlFAj4OIe7aBWyx2z8dyjMyKSXJbZytCFQEjLlgEUhtbXpgbccxMXVbVKeuvIch18sdKOZXZiEgsHJfkGuSKHAkPyr3mCmAWMJrisM3QrlTtU1HdqksFapXbanWPdAg4C9yw6Hardq5Igi1S8lYDu+UW7iLQLaW333EPCPIoq3FEFwAb5RR1XjrIbs0eyT1plClBUfZRFrZu30MiHuQz3x4eHh4elBz/AdFsAM5CLTuIAAAAAElFTkSuQmCC"/>
+            <p>Microsoft Azure</p>
+          </div>
         </div>
       </div>
     )

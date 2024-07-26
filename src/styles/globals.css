@@ -304,8 +304,25 @@
     background-color: #6ee8f1;
   }
 
+  .skills-container .grid-skills .java:hover {
+    background-color: #f38989;
+  }
+
+  .skills-container .grid-skills .sql:hover{
+    background-color:deeppink;
+  }
+
+  .skills-container .grid-skills .azure:hover{
+    background-color:lime;
+  }
+
 
   .custom-tensorflow-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+  }
+
+  .custom-azure-icon {
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
   }
