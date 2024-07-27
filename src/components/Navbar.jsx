@@ -1,5 +1,3 @@
-// components/Navbar.jsx
-
 import Link from "next/link";
 
 const Navbar = () => {
@@ -10,7 +8,9 @@ const Navbar = () => {
           Ashna's Portfolio
         </Link>
       </div>
-      <a href="" className="cta-btn">Resume</a>
+      <a href="/files/Resume_2024_Update.pdf" className="cta-btn" aria-label="PDF File" target="_blank" rel="noopener noreferrer">
+        Resume
+      </a>
     </div>
   )
 }

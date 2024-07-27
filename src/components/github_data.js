@@ -20,6 +20,21 @@ export const projectData = [
         githublink: "https://github.com/aa57c/Deep_Learning_Experiments",
         downloadfilelink: true
 
+    },
+    {
+        id: 4,
+        title: 'Racket Parser',
+        description: 'A parser built in the functional programming language Racket. This was a group project in one of my graduate classes on functional programming.',
+        githublink: "https://github.com/aa57c/RacketParser",
+        downloadfilelink: false
+
+    },
+    {
+        id: 5,
+        title: 'Bachelor\'s Capstone Project: ReactJS',
+        description: 'A ReactJS app that I built with a group during my bachelor\'s degree. This was a project I completed in my Capstone for Computer Science. I used MongoDB for the database and ran the backend server on Express.',
+        githublink: 'https://github.com/CS-451R-Capstone/Capstone_Project',
+        downloadfilelink: false
     }
     
 ]

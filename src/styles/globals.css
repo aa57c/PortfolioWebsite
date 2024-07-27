@@ -316,6 +316,12 @@
     background-color:lime;
   }
 
+  .skills-container .grid-skills .c-plus-plus:hover{
+    background-color:khaki;
+  }
+
+
+
 
   .custom-tensorflow-icon {
     width: 30px; /* Adjust the width as needed */
@@ -323,6 +329,11 @@
   }
 
   .custom-azure-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+  }
+
+  .custom-cplusplus-icon {
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
   }
