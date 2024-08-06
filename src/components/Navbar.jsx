@@ -2,17 +2,17 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="nav-container">
+    <nav className="nav-container">
       <div className="logo">
-        <Link href="/">
-          Ashna's Portfolio
+        <Link href="/" passHref>
+          <a aria-label="Ashna's Portfolio Home">Ashna's Portfolio</a>
         </Link>
       </div>
-      <a href="/files/Resume_2024_Update.pdf" className="cta-btn" aria-label="PDF File" target="_blank" rel="noopener noreferrer">
+      <a href="/files/Resume_2024_Update_3.pdf" className="cta-btn" aria-label="View Resume (PDF)" target="_blank" rel="noopener noreferrer">
         Resume
       </a>
-    </div>
-  )
+    </nav>
+  );
 }
 
 export default Navbar;

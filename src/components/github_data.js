@@ -32,9 +32,16 @@ export const projectData = [
     {
         id: 5,
         title: 'Bachelor\'s Capstone Project: ReactJS',
-        description: 'A ReactJS app that I built with a group during my bachelor\'s degree. This was a project I completed in my Capstone for Computer Science. I used MongoDB for the database and ran the backend server on Express.',
+        description: 'A ReactJS app that I built with a group during my bachelor\'s degree. This was a project I completed in my Capstone for Computer Science. I used MongoDB for the database and ran the backend server on Express. This is was a prototype website for a Graduate Teaching Assistant Application Form.',
         githublink: 'https://github.com/CS-451R-Capstone/Capstone_Project',
         downloadfilelink: false
+    },
+    {
+        id: 6,
+        title: 'Cloud Builder',
+        description: 'CloudBuilder is a tool that makes it easy to deploy web applications to the cloud. It automates the setup process, reducing the need for manual work and minimizing errors. The tool provides a user-friendly interface, real-time updates, and secure data handling. By streamlining the deployment process, CloudBuilder helps developers save time and focus on building their applications. UPDATE: The live site is no longer active. you need to set up the S3 bucket, ECR, and ECS. Steps are included in the Github link.',
+        githublink: 'https://github.com/aa57c/cloudbuilder',
+        downloadfilelink: true
     }
     
 ]
