@@ -9,29 +9,10 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Hey, I'm Ashna 👋</h1>
         <p>
-          I'm a software developer/data scientist based in Kansas City, Missouri. I specialize in building (and occasionally designing)
-          exceptional websites, applications, and everything in between.
+          I'm a software developer and data scientist based in Kansas City, Missouri. I specialize in building (and occasionally designing)
+          websites, applications, and everything in between.
         </p>
-        <div className="social-icons">
-        {
-            /*
-            <a
-            href="https://github.com/olawanlejoel"
-            aria-label="GitHub"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa-brands fa-github"></i>
-          </a>
-
-            
-            
-            
-            */
-
-
-        }
-          
+        <div className="social-icons">         
           <a
             href="https://www.linkedin.com/in/ashna-ali-4a451716b/"
             aria-label="LinkedIn"
