@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="nav-container">
       <div className="logo">
-        <Link href="/" passHref>
-          <a aria-label="Ashna's Portfolio Home">Ashna's Portfolio</a>
+        <Link href="/">
+          Ashna's Portfolio
         </Link>
       </div>
       <a href="/files/Resume_2024_Update_3.pdf" className="cta-btn" aria-label="View Resume (PDF)" target="_blank" rel="noopener noreferrer">
