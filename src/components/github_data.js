@@ -16,7 +16,7 @@ export const projectData = [
     {
         id: 3,
         title: 'Deep Learning Experiments',
-        description: 'Four experiments that are conducted using currently trained as well as custom made classifcation AI models (Segformer, VGG, Resnet, etc). I recommend running the Jupyter Notebooks on Google Colab with a GPU to have results faster. Click the download link to see my results and best models I have configured.',
+        description: 'Four experiments that are conducted using currently trained as well as custom made classifcation AI models (Segformer, VGG, Resnet, etc). I recommend running the Jupyter Notebooks on Google Colab with a GPU to have results faster. Click "Zip File of Results" under "Releases" on the Github page to download the experiment results.',
         githublink: "https://github.com/aa57c/Deep_Learning_Experiments",
         downloadfilelink: true
 

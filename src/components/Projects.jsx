@@ -13,11 +13,6 @@ const Projects = () => {
                 <a href={project.githublink} aria-label="Github" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-github"></i>
                 </a>
-                {project.downloadfilelink && project.title === "Deep Learning Experiments" && (
-                  <a href="/files/Experiment_Results.zip" aria-label="Download Experiment Results" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-solid fa-download"></i> <span>Experiment Results</span>
-                  </a>
-                )}
                 {project.downloadfilelink && project.title === "Cloud Builder" && (
                   <a href="/files/CloudBuilder_Docs.pdf" aria-label="Download Cloud Builder Docs" target="_blank" rel="noopener noreferrer">
                     <i className="fa-solid fa-download"></i> <span>Docs</span>
