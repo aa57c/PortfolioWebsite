@@ -42,6 +42,13 @@ export const projectData = [
         description: 'CloudBuilder is a tool that makes it easy to deploy web applications to the cloud. It automates the setup process, reducing the need for manual work and minimizing errors. The tool provides a user-friendly interface, real-time updates, and secure data handling. By streamlining the deployment process, CloudBuilder helps developers save time and focus on building their applications. UPDATE: The live site is no longer active. you need to set up the S3 bucket, ECR, and ECS. Steps are included in the Github link.',
         githublink: 'https://github.com/aa57c/cloudbuilder',
         downloadfilelink: true
+    },
+    {
+        id: 7,
+        title: 'AI Powered Diabetes Health Coach',
+        description: 'This was my Data Science Capstone project for my Master\'s program in 2024. It involves a web application built in Streamlit that is powered by gender-specific XGBoost models for symptoms that you are experiencing and a time-series LSTM model used for Continous Glucose Monitoring Data to classify patients into 4 categories of diabetes: No Diabetes, Prediabetes, Type 2 Diabetes, and Gestational Diabetes. Please email me to access the database server credentials. This won third place in the Hack-a-Roo competition at the University of Missouri-Kansas City.',
+        githublink: 'https://github.com/aa57c/DS_Capstone_Project',
+        downloadfilelink: false
     }
     
 ]
