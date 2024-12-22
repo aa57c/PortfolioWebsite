@@ -24,6 +24,13 @@ const Projects = () => {
                   </a>
                 )
                 }
+                {project.poster && (
+                  <a href={project.posterlink} aria-label="OneDrive" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-microsoft"></i>
+                  </a>
+                )
+
+                }
               </div>
             </div>
             <h3>{project.title}</h3>
