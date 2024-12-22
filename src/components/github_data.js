@@ -29,7 +29,7 @@ export const projectData = [
     {
         id: 4,
         title: 'Racket Parser',
-        description: 'A parser developed in Racket for a graduate functional programming course project.',
+        description: 'A parser developed in Racket for a bachelor\'s functional programming course project.',
         githublink: "https://github.com/aa57c/RacketParser",
         demo: false,
         poster: false,
