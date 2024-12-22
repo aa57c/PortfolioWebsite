@@ -20,7 +20,7 @@ export const projectData = [
     {
         id: 3,
         title: 'Deep Learning Experiments',
-        description: 'Four experiments using trained and custom AI models (e.g., Segformer, VGG, ResNet). Optimized for Google Colab GPU. Experiment results are available under "Releases" on GitHub.',
+        description: 'Four experiments using trained and custom AI models (e.g., Segformer, VGG, ResNet). Optimized for Google Colab GPU.',
         githublink: "https://github.com/aa57c/Deep_Learning_Experiments",
         demo: false,
         poster: false,

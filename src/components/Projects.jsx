@@ -29,6 +29,11 @@ const Projects = () => {
                     <a href="/files/Deep_Learning_Experiments_Final_Report.pdf" aria-label="Download Technical Report" target="_blank" rel="noopener noreferrer">
                       <i className="fa-solid fa-download"></i> <span>Report</span>
                     </a>
+
+                  ) && (
+                    <a href="/files/Deep_Learning_Experiments_Final_Results.pdf" aria-label="Download Results" target="_blank" rel="noopener noreferrer">
+                      <i className="fa-solid fa-download"></i> <span>Results</span>
+                    </a>
                   )
                 }
                 {project.poster && (
