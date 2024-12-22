@@ -30,7 +30,10 @@ const Projects = () => {
                       <i className="fa-solid fa-download"></i> <span>Report</span>
                     </a>
 
-                  ) && (
+                  ) 
+                }
+                {
+                  project.downloadfilelink && project.title == "Deep Learning Experiments" && (
                     <a href="/files/Deep_Learning_Experiments_Final_Results.pdf" aria-label="Download Results" target="_blank" rel="noopener noreferrer">
                       <i className="fa-solid fa-download"></i> <span>Results</span>
                     </a>
