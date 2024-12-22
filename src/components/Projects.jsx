@@ -18,6 +18,12 @@ const Projects = () => {
                     <i className="fa-solid fa-download"></i> <span>Docs</span>
                   </a>
                 )}
+                {project.demo && (
+                  <a href={project.demolink} aria-label="Youtube" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-brands fa-youtube"></i>
+                  </a>
+                )
+                }
               </div>
             </div>
             <h3>{project.title}</h3>

@@ -320,7 +320,13 @@
     background-color:khaki;
   }
 
+  .skills-container .grid-skills .arduino:hover{
+    background-color: coral;
+  }
 
+  .skills-container .grid-skills .esp:hover{
+    background-color: lightseagreen;
+  }
 
   .custom-tensorflow-icon {
     width: 30px; /* Adjust the width as needed */

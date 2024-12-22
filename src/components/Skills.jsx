@@ -1,5 +1,7 @@
 // components/Skills.jsx
 
+import Image from "next/image";
+
 const Skills = () => {
     return (
       <div className="skills-container">
@@ -57,6 +59,14 @@ const Skills = () => {
           <div className="skill-card c-plus-plus">
             <img className="custom-cplusplus-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADbklEQVR4nO1ZTWsTURQ9SVCpbVIVggu7SKmuXLTNohhqmxZEXErbLIs7F4LrLJp+TFb+ADdZuwu1+QGSBKFNUtCdtIlQFCpi0xiwTdDEmit3GIQGM+9lPtop5MCFx5t5b86Zd++77wPooQdH4iaAtwD+ADgBkAbgxwWAB8BLjTS1Gde9AnAZDsVzAPX/EG+3nwCicBAeAfgqQbzdvgN4fJ7EbwN4Z4B4u30EcPcsifsAvAbQsoA8acZ9vQFwzU7iLgBxAE0LiVOb/QaQAOC2mvwTAD9EBILBIMXjccpms7S7u0u1Wk01LnOdoijqOxJCagCeWUH8PoA9vY+5XC6KRCJUKpVIFsVikRYWFtS2AiHfADw0QvwGgILoT42MjFChUCCjyOfzNDw8LDMizMXbjYDPok4nJyfp4OCAzKJSqdDs7KyMiGI3AnQ7m5mZoUajQVah0WjQ9PS0jAjzAgKBAJXLZbIalUpFdUlbBXDQmfF5Eba2tkSBbU4AzzYicFwsLS3R2NgY9ff3qzY+Pk6xWEx35La3tykUCtk3AvxnePrTQzKZJK/X25GAz+ej9fX1U2329/dpcXFRZko1J4ATkIi8DAl+h0XU63VaXV2lvr4+GeLmBXCG1XMbvT/fbkx6aGioG+LmBfBSoBPY5w2Q+de+i2fGBegtFUZHR50v4Pj4uKOAgYEBQ8TbIXpmSsDR0VHHzrvx/3MTUNJxIZ7zHe9CmUymo4Dl5WXnC1AUpaMAzrCcpGSJc8xMTEwYEW1fIuPkJJPI3G43pVIparVaavKTWMCd3VKCReiNxODgIG1sbJxq02w2KZFIkN/vt1cAG28DRWB34pjgEWNX4RmKyysrK3R4eNixXbVapWg0Sh6Pxz4BPAq8DbQLm5ub9i6nL/yGBpqFw2HLt5RTU1OWxkDKgZv6TDcCLgFQRKfNfCSSy+VM+XwgEBARr2tcrsAAbmlHfSd6gT0/P6+evsliZ2eH5ubmRMT5vDQJIAALEASQFQ0z733X1tYonU6rgngFy8ZlruMdmOS6KQ8gBBvwAMAHCQJmjtojsBkcH08BlC0kXtVubQz5uVFcB/ACwC8TxJtajJ3rBeAdLdi6vfDgC40zvZkR4R6AnATx9wDCcChcWhB++g/xL1rs8FWs43EVQEy7HNnTylzXQw9wGP4CLEuuIwrZjcUAAAAASUVORK5CYII="/>
             <p>C++</p>
+          </div>
+          <div className="skill-card arduino">
+            <Image src='/icons/arduino.svg' width={30} height={30} alt='Arduino Icon' />
+            <p>Arduino</p>
+          </div>
+          <div className="skill-card esp">
+            <Image src='/icons/espressif.svg' width={30} height={30} alt='Espressif Icon'/>
+            <p>ESP32</p>
           </div>
         </div>
       </div>

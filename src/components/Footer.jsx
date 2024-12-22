@@ -25,7 +25,7 @@ const Footer = () => {
             }
             
             <a
-              href="https://www.linkedin.com/in/ashna-ali-4a451716b/"
+              href="https://www.linkedin.com/in/ashna-ali"
               aria-label="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
