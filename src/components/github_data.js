@@ -37,7 +37,7 @@ export const projectData = [
     },
     {
         id: 5,
-        title: "Bachelor's Capstone Project: ReactJS",
+        title: "Graduate Teaching Assistant Job Board",
         description: 'A ReactJS app prototype for a Graduate Teaching Assistant Application Form. Built with MongoDB and Express during my bachelor\'s capstone project.',
         githublink: 'https://github.com/CS-451R-Capstone/Capstone_Project',
         demo: false,
