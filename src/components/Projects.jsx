@@ -13,20 +13,20 @@ const Projects = () => {
                 <a href={project.githublink} aria-label="Github" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-github"></i>
                 </a>
-                {project.downloadfilelink && project.title === "Cloud Builder" && (
-                  <a href="/files/CloudBuilder_Docs.pdf" aria-label="Download Cloud Builder Docs" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-solid fa-download"></i> <span>Docs</span>
-                  </a>
-                )}
                 {project.demo && (
                   <a href={project.demolink} aria-label="Youtube" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-youtube"></i>
                   </a>
                 )
                 }
+                {project.downloadfilelink && (
+                  <a href="/files/CloudBuilder_Docs.pdf" aria-label="Download Cloud Builder Docs" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-solid fa-download"></i> <span>Docs</span>
+                  </a>
+                )}
                 {project.poster && (
-                  <a href={project.posterlink} aria-label="OneDrive" target="_blank" rel="noopener noreferrer">
-                    <i className="fa-brands fa-microsoft"></i>
+                  <a href="/files/poster.pdf" aria-label="Download Poster" target="_blank" rel="noopener noreferrer">
+                    <i className="fa-solid fa-download"></i> <span>Poster</span>
                   </a>
                 )
 

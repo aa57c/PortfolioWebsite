@@ -24,7 +24,7 @@ export const projectData = [
         githublink: "https://github.com/aa57c/Deep_Learning_Experiments",
         demo: false,
         poster: false,
-        downloadfilelink: true
+        downloadfilelink: false
     },
     {
         id: 4,
@@ -61,7 +61,6 @@ export const projectData = [
         githublink: 'https://github.com/aa57c/DS_Capstone_Project',
         demo: true,
         poster: true,
-        posterlink: 'https://mailmissouri-my.sharepoint.com/:b:/g/personal/aa57c_umsystem_edu/EZFjf1Z2Nz9Gm5bIbbNESgwB38XGNRtYxw7o5dx8qVJGRw?e=e8E2B1',
         demolink: 'https://youtu.be/ilnozF_kpas',
         downloadfilelink: false
     },
