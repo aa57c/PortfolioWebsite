@@ -19,11 +19,18 @@ const Projects = () => {
                   </a>
                 )
                 }
-                {project.downloadfilelink && (
+                {project.downloadfilelink && project.title == "Cloud Builder" && (
                   <a href="/files/CloudBuilder_Docs.pdf" aria-label="Download Cloud Builder Docs" target="_blank" rel="noopener noreferrer">
                     <i className="fa-solid fa-download"></i> <span>Docs</span>
                   </a>
                 )}
+                {
+                  project.downloadfilelink && project.title == "Deep Learning Experiments" && (
+                    <a href="/files/Deep_Learning_Experiments_Final_Report.pdf" aria-label="Download Technical Report" target="_blank" rel="noopener noreferrer">
+                      <i className="fa-solid fa-download"></i> <span>Report</span>
+                    </a>
+                  )
+                }
                 {project.poster && (
                   <a href="/files/poster.pdf" aria-label="Download Poster" target="_blank" rel="noopener noreferrer">
                     <i className="fa-solid fa-download"></i> <span>Poster</span>

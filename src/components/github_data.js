@@ -24,7 +24,7 @@ export const projectData = [
         githublink: "https://github.com/aa57c/Deep_Learning_Experiments",
         demo: false,
         poster: false,
-        downloadfilelink: false
+        downloadfilelink: true
     },
     {
         id: 4,
