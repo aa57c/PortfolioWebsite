@@ -8,7 +8,7 @@ const Navbar = () => {
           Ashna's Portfolio
         </Link>
       </div>
-      <a href="/files/my_Resume_2024_MASTER.pdf" className="cta-btn" aria-label="View Resume (PDF)" target="_blank" rel="noopener noreferrer">
+      <a href="/files/my_Resume_MASTER.pdf" className="cta-btn" aria-label="View Resume (PDF)" target="_blank" rel="noopener noreferrer">
         Resume
       </a>
     </nav>
