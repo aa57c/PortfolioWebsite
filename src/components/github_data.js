@@ -58,7 +58,7 @@ export const projectData = [
         id: 7,
         title: 'AI-Powered Diabetes Health Coach',
         description: 'A Streamlit web app using XGBoost and LSTM models to classify diabetes risk levels. This 2024 Master\'s Data Science Capstone project won third place in the UMKC Hack-a-Roo competition. Contact me for database access.',
-        githublink: 'https://github.com/aa57c/DS_Capstone_Project',
+        githublink: 'https://github.com/aa57c/ai-diabetes-health-coach-app',
         demo: true,
         poster: true,
         demolink: 'https://youtu.be/ilnozF_kpas',
