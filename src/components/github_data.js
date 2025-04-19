@@ -2,7 +2,7 @@ export const projectData = [
     {
         id: 1,
         title: 'Cryptography Web App',
-        description: 'A secure patient data storage solution combining AES, ECC, and PQC. Built with Docker and PostgreSQL, this graduate group project featured containerized database and app servers.',
+        description: 'A secure patient data storage solution combining AES, ECC, and PQC. Built with Docker and PostgreSQL, this graduate group project featured containerized database and app servers. I used AWS ElasticBeanstalk to deploy the app at this domain:  http://crypt-app-2-dev.us-east-1.elasticbeanstalk.com/',
         githublink: "https://github.com/aa57c/CryptographyProject",
         demo: false,
         poster: false,
@@ -57,7 +57,7 @@ export const projectData = [
     {
         id: 7,
         title: 'AI-Powered Diabetes Health Coach',
-        description: 'A Streamlit web app using XGBoost and LSTM models to classify diabetes risk levels. This 2024 Master\'s Data Science Capstone project won third place in the UMKC Hack-a-Roo competition.',
+        description: 'A Streamlit web app using XGBoost and LSTM models to classify diabetes risk levels. This 2024 Master\'s Data Science Capstone project won third place in the UMKC Hack-a-Roo competition. This app is now on Streamlit Cloud: https://diabetes-health-coach.streamlit.app/',
         githublink: 'https://github.com/aa57c/ai-diabetes-health-coach-app',
         demo: true,
         poster: true,
