@@ -50,16 +50,20 @@ const Projects = () => {
             </div>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            {project.deployed && project.title == "Cryptography Web App" && (
-              <a href=" http://crypt-app-2-dev.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">
-                Click here to see the deployed app!
-              </a>
+            <div>
+              {project.deployed && project.title == "Cryptography Web App" && (
+                <a href=" http://crypt-app-2-dev.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer" style={{ color: "blue", textDecoration: "underline" }}>
+                  Click here to see the deployed app!
+                </a>
             )}
-            {project.deployed && project.title == "AI-Powered Diabetes Health Coach" && (
-              <a href="https://diabetes-health-coach.streamlit.app/" target="_blank" rel="noopener noreferrer">
-                Click here to see the deployed app!
-              </a>
-            )}
+            </div>
+            <div>
+              {project.deployed && project.title == "AI-Powered Diabetes Health Coach" && (
+                <a href="https://diabetes-health-coach.streamlit.app/" target="_blank" rel="noopener noreferrer" style={{ color: "blue", textDecoration: "underline" }}>
+                  Click here to see the deployed app!
+                </a>
+              )}
+            </div>
           </div>
         ))}
       </div>
