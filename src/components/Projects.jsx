@@ -60,7 +60,6 @@ const Projects = () => {
                 Click here to see the deployed app!
               </a>
             )}
-
           </div>
         ))}
       </div>
