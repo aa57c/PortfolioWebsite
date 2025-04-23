@@ -383,6 +383,11 @@
     font-size: 35px;
     color: #FFCC17;
   }
+  .project-card .coming-soon-folder-icon {
+    font-size: 35px;
+    color: #ffffff;
+  }
+
   
   .project-header .small-icons {
     display: flex;
