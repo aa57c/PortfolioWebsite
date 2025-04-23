@@ -10,7 +10,7 @@ const Hero = () => {
         <h1>Hey, I'm Ashna 👋</h1>
         <p>
           I'm a software developer and data scientist based in Kansas City, Missouri. I specialize in building (and occasionally designing)
-          websites, applications, and everything in between. Fun fact: This website is built with Next.js and hosted on Vercel!
+          websites, applications, and everything in between. Fun fact: This website was built with Next.js and hosted on Vercel!
         </p>
         <div className="social-icons">         
           <a
