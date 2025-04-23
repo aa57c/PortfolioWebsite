@@ -439,3 +439,16 @@
     margin-bottom: 1rem;
     text-align: center;
   }
+  .project-card.coming-soon {
+    border: 2px dashed #bbb;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    font-weight: bold;
+    font-size: 1.2rem;
+    height: 200px; /* match your other cards */
+    border-radius: 8px;
+  }
+  
