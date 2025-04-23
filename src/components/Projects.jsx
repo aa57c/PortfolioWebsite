@@ -67,7 +67,7 @@ const Projects = () => {
           </div>
         ))}
         <div className="project-card coming-soon">
-          <span className="coming-soon-text">Coming Soon: Early Detection of Pancreatic Cancer Research</span>
+          <span className="coming-soon-text">Coming Soon: Early Detection of Pancreatic Cancer Using Machine Learning</span>
         </div>
       </div>
     </div>
