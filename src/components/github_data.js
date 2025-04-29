@@ -42,7 +42,7 @@ export const projectData = [
     {
         id: 5,
         title: "Graduate Teaching Assistant Job Board",
-        description: 'A ReactJS app prototype for a Graduate Teaching Assistant Application Form. Built with a MERN (MongoDB, Express, ReactJS, NodeJS) stack during my bachelor\'s program capstone project. The backend server is hosted on OnRender and the frontend is hosted on Vercel.',
+        description: 'A web application prototype for a Graduate Teaching Assistant Application form for the University of Missouri-Kansas City. Built with a MERN (MongoDB, Express, ReactJS, NodeJS) stack during my bachelor\'s program capstone project. The backend server is hosted on OnRender and the frontend is hosted on Vercel.',
         githublink: 'https://github.com/aa57c/graduate_teaching_assistant_job_board',
         deployed: true,
         demo: false,
