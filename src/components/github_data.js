@@ -32,7 +32,7 @@ export const projectData = [
     {
         id: 4,
         title: 'Racket Parser',
-        description: 'A parser developed in Racket for a bachelor\'s functional programming course project.',
+        description: 'This project implements a lexer and parser for simple mathematical language. The lexer tokenizes the input source code, and the parser processes these tokens according to predefined grammar rules. The project is designed to handle a language with basic constructs such as variables, arithmetic operations, and simple statements (e.g., assignment, input/output).',
         githublink: "https://github.com/aa57c/RacketParser",
         deployed: false,
         demo: false,
