@@ -64,6 +64,13 @@ const Projects = () => {
                 </a>
               )}
             </div>
+            <div>
+              {project.deployed && project.title == "Graduate Teaching Assistant Job Board" && (
+                <a href="graduate-teaching-assistant-job-board-dt85i2m91.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: "blue", textDecoration: "underline" }}>
+                  Click here to see the deployed app!
+                </a>
+              )}
+            </div>
           </div>
         ))}
         <div className="project-card coming-soon">
