@@ -52,21 +52,21 @@ const Projects = () => {
             <p>{project.description}</p>
             <div>
               {project.deployed && project.title == "Cryptography Web App" && (
-                <a href=" http://crypt-app-2-dev.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer" style={{ color: "blue", textDecoration: "underline" }}>
+                <a href=" http://crypt-app-2-dev.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer" style={{ color: "red", textDecoration: "underline" }}>
                   Click here to see the deployed app!
                 </a>
               )}
             </div>
             <div>
               {project.deployed && project.title == "AI-Powered Diabetes Health Coach" && (
-                <a href="https://diabetes-health-coach.streamlit.app/" target="_blank" rel="noopener noreferrer" style={{ color: "blue", textDecoration: "underline" }}>
+                <a href="https://diabetes-health-coach.streamlit.app/" target="_blank" rel="noopener noreferrer" style={{ color: "red", textDecoration: "underline" }}>
                   Click here to see the deployed app!
                 </a>
               )}
             </div>
             <div>
               {project.deployed && project.title == "Graduate Teaching Assistant Job Board" && (
-                <a href="https://graduate-teaching-assistant-job-board.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: "blue", textDecoration: "underline" }}>
+                <a href="https://graduate-teaching-assistant-job-board.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: "red", textDecoration: "underline" }}>
                   Click here to see the deployed app!
                 </a>
               )}
