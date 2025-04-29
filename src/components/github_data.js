@@ -74,7 +74,7 @@ export const projectData = [
     {
         id: 8,
         title: 'Mining Worker Safety Helmet IoT System',
-        description: 'An IoT system designed to be an emergency alert system to miners. Uses a combination of Arduino Uno and ESP32 as well as ReactJS for the frontend. More details can be found on the Github page.',
+        description: 'an IoT-enabled wearable device designed to enhance safety in hazardous underground mining environments. By integrating environmental monitoring sensors, location tracking, and real-time communication, this innovative helmet provides miners and management with critical safety data and alerts to improve situational awareness and response times. Uses an ESP32, Arduino Uno, and ReactJS for the frontend dashboard application.',
         githublink: 'https://github.com/aa57c/IoT_Final_Project',
         deployed: false,
         demo: true,
