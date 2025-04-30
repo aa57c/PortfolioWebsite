@@ -52,7 +52,7 @@ export const projectData = [
     {
         id: 6,
         title: 'Cloud Builder',
-        description: 'A tool for automating web application deployment to the cloud with a user-friendly interface and secure data handling. Setup steps for S3, ECR, and ECS are included in the GitHub repository.',
+        description: 'This repository contains a suite of services designed to automate the deployment of web applications using a microservices architecture. Each component of the project plays a specific role, from managing front-end interactions to handling backend operations and reverse proxy configurations. Microservices are managed by AWS.',
         githublink: 'https://github.com/aa57c/cloudbuilder',
         deployed: false,
         demo: true,
