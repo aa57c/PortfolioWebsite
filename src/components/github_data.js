@@ -4,7 +4,7 @@ export const projectData = [
         title: 'Cryptography Web App',
         description: 'A secure patient data storage solution combining AES, ECC, and PQC. Built with Docker and PostgreSQL, this graduate group project featured containerized database and app servers. This application is deployed on AWS Elastic Beanstalk.',
         githublink: "https://github.com/aa57c/CryptographyProject",
-        deployed: true,
+        deployed: false,
         demo: false,
         poster: false,
         downloadfilelink: false
