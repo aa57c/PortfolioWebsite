@@ -81,5 +81,15 @@ export const projectData = [
         poster: false,
         demolink: 'https://youtu.be/157T500kwEQ',
         downloadfilelink: false
+    },
+    {
+        id: 9, 
+        title: 'Energy Company Customer Billing & Management System',
+        description: "a Java-based desktop application built with Swing for the GUI and integrated with Microsoft SQL Server via JDBC. It supports secure user authentication, dynamic customer record management, and automated invoice generation. The system includes modular UI components, customizable customer field editing, and external library integration (e.g., jdatepicker). Designed with extensibility and maintainability in mind, it demonstrates proficiency in Java desktop development, relational database integration, and event-driven programming.",
+        githublink: "https://github.com/aa57c/Java_Billing_Management",
+        deployed: false,
+        demo: false,
+        poster: false,
+        downloadfilelink: false
     }
 ];
