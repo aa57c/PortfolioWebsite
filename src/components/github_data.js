@@ -91,5 +91,15 @@ export const projectData = [
         demo: false,
         poster: false,
         downloadfilelink: false
+    },
+    {
+        id: 10,
+        title: 'Netflix Dataset EDA',
+        description: 'Conducted an exploratory data analysis (EDA) of Netflix’s Movies and TV Shows dataset to uncover trends in content growth, genres, ratings, and regional distribution. Cleaned and visualized the dataset using Python (Pandas, Matplotlib, Seaborn), producing actionable insights into Netflix’s content strategy.',
+        githublink: ' https://github.com/aa57c/netflix-data-analysis',
+        deployed: false,
+        demo: false,
+        poster: false,
+        downloadfilelink: false
     }
 ];
