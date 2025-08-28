@@ -361,6 +361,12 @@
     background-color: lightsalmon;
   }
 
+  .skills-container .grid-skills .seaborn:hover{
+    background-color: lightsalmon;
+  }
+
+
+
   .custom-tensorflow-icon {
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */

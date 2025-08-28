@@ -151,7 +151,16 @@ const Skills = () => {
             <div className="skill-back">
               <p className="skill-level">Intermediate</p>
             </div>
-            
+          </div>
+          <div className="skill-card seaborn">
+            <div className="skill-front">
+              <Image src='/icons/seaborn.svg' width={30} height={30} alt='Seaborn Icon'/>
+              <p className="skill-name">Seaborn</p>
+            </div>
+            <div className="skill-back">
+              <p className="skill-level">Intermediate</p>
+            </div>
+
           </div>
         </div>
       </div>
