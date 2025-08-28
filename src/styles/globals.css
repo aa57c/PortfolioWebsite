@@ -299,66 +299,66 @@
   }
   
   .skills-container .grid-skills .html:hover {
-    background-color: #E34F26;
+    background-color:lightgreen;
   }
   
   .skills-container .grid-skills .css:hover {
-    background-color: #264DE4;
+    background-color:lightsalmon;
   }
   
   .skills-container .grid-skills .js:hover {
-    background-color: #F7DF1E;
+    background-color:lightsalmon;
   }
   
   .skills-container .grid-skills .react:hover {
-    background-color: #9927f0;
+    background-color: lightgreen;
   }
   
   .skills-container .grid-skills .node:hover {
-    background-color: #339933;
+    background-color: lightsalmon;
   }
   
   .skills-container .grid-skills .python:hover {
-    background-color: #b3ff00;
+    background-color: lightgreen;
   }
 
   .skills-container .grid-skills .aws:hover {
-    background-color: #de81bd;
+    background-color: lightcoral;
   }
   .skills-container .grid-skills .tensorflow:hover {
-    background-color: #d58235;
+    background-color: lightsalmon;
   }
 
   .skills-container .grid-skills .docker:hover {
-    background-color: #6ee8f1;
+    background-color: lightcoral;
   }
 
   .skills-container .grid-skills .java:hover {
-    background-color: #f38989;
+    background-color: lightsalmon;
   }
 
   .skills-container .grid-skills .sql:hover{
-    background-color:deeppink;
+    background-color: lightsalmon;
   }
 
   .skills-container .grid-skills .azure:hover{
-    background-color:lime;
+    background-color: lightcoral;
   }
 
   .skills-container .grid-skills .c-plus-plus:hover{
-    background-color:khaki;
+    background-color: lightsalmon;
   }
 
   .skills-container .grid-skills .arduino:hover{
-    background-color: coral;
+    background-color: lightcoral;
   }
 
   .skills-container .grid-skills .esp:hover{
-    background-color: lightseagreen;
+    background-color: lightcoral;
   }
 
   .skills-container .grid-skills .pandas:hover{
-    background-color: sienna;
+    background-color: lightsalmon;
   }
 
   .custom-tensorflow-icon {
