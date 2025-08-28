@@ -31,7 +31,7 @@ const Skills = () => {
               <p className="skill-name">JavaScript</p>
             </div>
             <div className="skill-back">
-              <p className="skill-level">Intermediate</p>
+              <p className="skill-level">Expert</p>
             </div>
           </div>
           <div className="skill-card react">
@@ -49,7 +49,7 @@ const Skills = () => {
               <p className="skill-name">Node</p>
             </div>
             <div className="skill-back">
-              <p className="skill-level">Intermediate</p>
+              <p className="skill-level">Expert</p>
             </div>
           </div>
           <div className="skill-card python">

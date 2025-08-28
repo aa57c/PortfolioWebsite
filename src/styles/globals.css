@@ -307,7 +307,7 @@
   }
   
   .skills-container .grid-skills .js:hover {
-    background-color:lightsalmon;
+    background-color:lightgreen;
   }
   
   .skills-container .grid-skills .react:hover {
@@ -315,7 +315,7 @@
   }
   
   .skills-container .grid-skills .node:hover {
-    background-color: lightsalmon;
+    background-color: lightgreen;
   }
   
   .skills-container .grid-skills .python:hover {
