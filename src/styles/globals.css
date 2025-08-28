@@ -328,6 +328,10 @@
     background-color: lightseagreen;
   }
 
+  .skills-container .grid-skills .pandas:hover{
+    background-color: lightsalmon;
+  }
+
   .custom-tensorflow-icon {
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
@@ -339,6 +343,10 @@
   }
 
   .custom-cplusplus-icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+  }
+  .custom-pandas-icon{
     width: 30px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
   }

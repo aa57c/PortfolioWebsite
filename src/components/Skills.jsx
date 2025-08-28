@@ -68,6 +68,10 @@ const Skills = () => {
             <Image src='/icons/espressif.svg' width={30} height={30} alt='Espressif Icon'/>
             <p>ESP32</p>
           </div>
+          <div className="skill-card pandas">
+            <img className="custom-pandas-icon" alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgNDggNDgiIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIGJhc2VQcm9maWxlPSJiYXNpYyI+PHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iMTAiIHg9IjE4IiB5PSI0IiBmaWxsPSIjMWEyMzdlIi8+PHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iMTAiIHg9IjE4IiB5PSIyNSIgZmlsbD0iIzFhMjM3ZSIvPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjUiIHg9IjE4IiB5PSIxNyIgZmlsbD0iI2ZiYzAyZCIvPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjMzIiB4PSIxMCIgeT0iMTMiIGZpbGw9IiMxYTIzN2UiLz48cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSIxMCIgeD0iMjYiIHk9IjMzIiBmaWxsPSIjMWEyMzdlIi8+PHJlY3Qgd2lkdGg9IjUiIGhlaWdodD0iMTAiIHg9IjI2IiB5PSIxMiIgZmlsbD0iIzFhMjM3ZSIvPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjUiIHg9IjI2IiB5PSIyNSIgZmlsbD0iI2ZmNDA4MSIvPjxyZWN0IHdpZHRoPSI1IiBoZWlnaHQ9IjMzIiB4PSIzNCIgeT0iMiIgZmlsbD0iIzFhMjM3ZSIvPjwvc3ZnPg=="/>
+            <p>Pandas</p>
+          </div>
         </div>
       </div>
     )
