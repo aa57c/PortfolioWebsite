@@ -365,6 +365,10 @@
     background-color: lightsalmon;
   }
 
+  .skills-container .grid-skills .powerbi:hover{
+    background-color: lightcoral;
+  }
+
 
 
   .custom-tensorflow-icon {

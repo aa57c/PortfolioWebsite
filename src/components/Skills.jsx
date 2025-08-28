@@ -160,6 +160,15 @@ const Skills = () => {
             <div className="skill-back">
               <p className="skill-level">Intermediate</p>
             </div>
+          </div>
+          <div className="skill-card powerbi">
+            <div className="skill-front">
+              <Image src='/icons/icons8-power-bi.svg' alt='Microsoft PowerBI Icon'/>
+              <p className="skill-name">Microsoft PowerBI</p>
+            </div>
+            <div className="skill-back">
+              <p className="skill-level">Beginner</p>
+            </div>
 
           </div>
         </div>
