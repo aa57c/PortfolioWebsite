@@ -154,7 +154,7 @@ const Skills = () => {
           </div>
           <div className="skill-card seaborn">
             <div className="skill-front">
-              <Image src='/icons/seaborn.svg' width={30} height={30} alt='Seaborn Icon'/>
+              <Image src='/icons/seaborn.png' width={30} height={30} alt='Seaborn Icon'/>
               <p className="skill-name">Seaborn</p>
             </div>
             <div className="skill-back">
