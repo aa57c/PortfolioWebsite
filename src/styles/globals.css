@@ -254,27 +254,34 @@
   .skill-card {
   position: relative;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.skill-card .skill-level {
+.skill-front,
+.skill-back {
   position: absolute;
-  opacity: 0;
+  text-align: center;
   transition: opacity 0.4s ease;
 }
 
-.skill-card .skill-name {
-  transition: opacity 0.4s ease;
-}
-
-.skill-card:hover .skill-name {
-  opacity: 0;
-}
-
-.skill-card:hover .skill-level {
+.skill-front {
   opacity: 1;
 }
+
+.skill-back {
+  opacity: 0;
+}
+
+.skill-card:hover .skill-front {
+  opacity: 0;
+}
+
+.skill-card:hover .skill-back {
+  opacity: 1;
+}
+
   
   .skills-container .grid-skills .skill-card {
     background-color: #DADADB;
