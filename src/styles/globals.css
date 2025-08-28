@@ -251,11 +251,16 @@
     }
   }
 
+/* stack front/back inside the card */
 .skill-front,
 .skill-back {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   transition: opacity 0.4s ease;
+  width: 100%;
 }
 
 .skill-front {
@@ -273,21 +278,21 @@
 .skill-card:hover .skill-back {
   opacity: 1;
 }
-
   
-  .skills-container .grid-skills .skill-card {
-    background-color: #DADADB;
-    color: #1D1E20;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0 1rem;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s ease-in-out;
-    cursor: context-menu;
-  }
+.skills-container .grid-skills .skill-card {
+  background-color: #DADADB;
+  color: #1D1E20;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;   /* give enough vertical space */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+  cursor: context-menu;
+  position: relative;   /* needed so children can overlay */
+  min-height: 120px;    /* keeps a consistent card height */
+}
   
   .skills-container .grid-skills i {
     font-size: 1.5rem;
