@@ -101,5 +101,15 @@ export const projectData = [
         demo: false,
         poster: false,
         downloadfilelink: false
+    },
+    {
+        id: 11,
+        title: 'Neural Networks Implementation',
+        description: 'A comprehensive neural network implementation featuring both from-scratch components and practical heart disease prediction models.',
+        githublink: 'https://github.com/aa57c/neural-networks-implementation',
+        deployed: false,
+        demo: false,
+        poster: false,
+        downloadfilelink: false
     }
 ];
