@@ -169,7 +169,15 @@ const Skills = () => {
             <div className="skill-back">
               <p className="skill-level">Beginner</p>
             </div>
-
+          </div>
+          <div className="skill-card springboot">
+              <div className="skill-front">
+                  <Image src='/icons/icons8-spring-boot.svg' alt='SpringBoot Icon'/>
+                  <p className="skill-name">SpringBoot</p>
+              </div>
+              <div className="skill-back">
+                  <p className="skill-level">Beginner</p>
+              </div>
           </div>
         </div>
       </div>
