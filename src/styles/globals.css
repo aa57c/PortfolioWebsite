@@ -371,6 +371,9 @@
 .skills-container .grid-skills .springboot:hover{
     background-color: lightcoral;
   }
+.skills-container .grid-skills .maven:hover{
+    background-color: lightcoral;
+  }
 
 
 
