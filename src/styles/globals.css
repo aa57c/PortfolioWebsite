@@ -374,6 +374,9 @@
 .skills-container .grid-skills .maven:hover{
     background-color: lightcoral;
   }
+ .skills-container .grid-skills .pytorch:hover {
+    background-color: lightsalmon;
+  }
 
 
 
