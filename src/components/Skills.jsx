@@ -179,6 +179,15 @@ const Skills = () => {
                   <p className="skill-level">Beginner</p>
               </div>
           </div>
+          <div className="skill-card maven">
+              <div className="skill-front">
+                  <Image src='/icons/apache-maven-icon.png' width={30} height={30} alt='SpringBoot Icon'/>
+                  <p className="skill-name">Maven</p>
+              </div>
+              <div className="skill-back">
+                  <p className="skill-level">Beginner</p>
+              </div>
+          </div>
         </div>
       </div>
     )
