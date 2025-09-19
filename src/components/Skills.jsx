@@ -169,7 +169,33 @@ const Skills = () => {
             <div className="skill-back">
               <p className="skill-level">Beginner</p>
             </div>
-
+          </div>
+          <div className="skill-card springboot">
+              <div className="skill-front">
+                  <Image src='/icons/icons8-spring-boot.svg' alt='SpringBoot Icon'/>
+                  <p className="skill-name">SpringBoot</p>
+              </div>
+              <div className="skill-back">
+                  <p className="skill-level">Beginner</p>
+              </div>
+          </div>
+          <div className="skill-card maven">
+              <div className="skill-front">
+                  <Image src='/icons/apache-maven-icon.png' width={30} height={30} alt='SpringBoot Icon'/>
+                  <p className="skill-name">Maven</p>
+              </div>
+              <div className="skill-back">
+                  <p className="skill-level">Beginner</p>
+              </div>
+          </div>
+           <div className="skill-card pytorch">
+            <div className="skill-front">
+              <Image src='/icons/icons8-pytorch.svg' alt='PyTorch Icon' />
+              <p className="skill-name">PyTorch</p>
+            </div>
+            <div className="skill-back">
+              <p className="skill-level">Intermediate</p>
+            </div>
           </div>
         </div>
       </div>

@@ -111,5 +111,15 @@ export const projectData = [
         demo: false,
         poster: false,
         downloadfilelink: false
+    },
+    {
+        id: 12,
+        title: 'Student CRUD API',
+        description: 'This project demonstrates a comprehensive implementation of a CRUD (Create, Read, Update, Delete) API with robust error handling, data validation, and comprehensive testing. It serves as a showcase of modern Java development practices and enterprise-level application architecture.',
+        githublink: 'https://github.com/aa57c/Crud_API_Example_Spring',
+        deployed: false,
+        demo: false,
+        poster: false,
+        downloadfilelink: false
     }
 ];
