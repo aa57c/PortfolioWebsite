@@ -75,13 +75,6 @@ const Projects = () => {
         
         
         ))}
-        <div className="project-card coming-soon">
-          <div className="project-header">
-            <i className="fa-regular fa-hourglass-half folder-icon"></i>
-          </div>
-          <h3>Coming Soon... AI Powered News Bias Detector</h3>
-          <p>Stay tuned for my next big project!</p>
-        </div>
       </div>
     </div>
   );

@@ -424,42 +424,6 @@
     border-radius: 5px;
   }
 
-  /* Only applies to the Coming Soon card */
-.project-card.coming-soon {
-  background-color: #000 !important;   /* black background */
-  border: 2px dotted #fff !important;  /* dotted white border */
-  color: #fff !important;
-  text-align: center !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-  height: 200px !important;            /* matches other cards */
-  border-radius: 8px !important;
-  padding: 1rem !important;
-  font-size: 0.9rem !important;        /* base font for this card only */
-}
-
-/* Heading inside Coming Soon card */
-.project-card.coming-soon h3 {
-  font-size: 1rem !important;
-  color: gold !important;
-  margin: 0.3rem 0 !important;
-}
-
-/* Description inside Coming Soon card */
-.project-card.coming-soon p {
-  font-size: 0.85rem !important;
-  margin: 0 !important;
-}
-
-/* Icon inside Coming Soon card */
-.project-card.coming-soon .folder-icon {
-  font-size: 1.2rem !important;
-  color: gold !important;
-  margin-bottom: 0.3rem !important;
-}
-
   
   .project-header .small-icons {
     display: flex;
