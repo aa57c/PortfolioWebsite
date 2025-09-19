@@ -425,36 +425,31 @@
   }
 
   .project-card.coming-soon {
-  background-color: #000;
-  color: #fff;
-  border: 2px dotted #fff;
-  text-align: center;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    background-color: #000;
+    color: #fff;
+    border: 2px dotted #fff;
+    text-align: center;
+    padding: 1rem;              /* smaller padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .project-card.coming-soon h3 {
     color: gold;
-    margin: 1rem 0;
+    font-size: 1.2rem;          /* smaller heading */
+    margin: 0.5rem 0;
+  }
+
+  .project-card.coming-soon p {
+    font-size: 0.9rem;          /* smaller description */
+    margin: 0;
   }
 
   .project-card.coming-soon .folder-icon {
-    font-size: 2rem;
+    font-size: 1.5rem;          /* smaller icon */
     color: gold;
-  }
-  
-  .project-card .project-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-  
-  .project-card .folder-icon {
-    font-size: 35px;
-    color: #FFCC17;
+    margin-bottom: 0.5rem;
   }
 
   
