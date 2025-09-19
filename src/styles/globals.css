@@ -414,6 +414,27 @@
     padding: 20px;
     border-radius: 5px;
   }
+
+  .project-card.coming-soon {
+  background-color: #000;
+  color: #fff;
+  border: 2px dotted #fff;
+  text-align: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  .project-card.coming-soon h3 {
+    color: gold;
+    margin: 1rem 0;
+  }
+
+  .project-card.coming-soon .folder-icon {
+    font-size: 2rem;
+    color: gold;
+  }
   
   .project-card .project-header {
     display: flex;
