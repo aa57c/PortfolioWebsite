@@ -41,7 +41,7 @@ const Projects = () => {
                 {
                   project.downloadfilelink && project.title == "Mining Worker Safety Helmet IoT System" && (
                     <a href="/files/IoT_Final_Project_Presentation_Mining_Helmet.pptx" aria-label="Download Presentation" target="_blank" rel="noopener noreferrer">
-                      <i className="fa-solid fa-download"></i> <span>Download Presentation</span>
+                      <i className="fa-solid fa-download"></i> <span>Download PPT</span>
                     </a>
                   )
                 }
