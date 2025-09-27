@@ -80,7 +80,7 @@ export const projectData = [
         demo: true,
         poster: false,
         demolink: 'https://youtu.be/157T500kwEQ',
-        downloadfilelink: false
+        downloadfilelink: true
     },
     {
         id: 9, 
