@@ -17,12 +17,15 @@ const About = () => {
             <li>
               <strong>Driving Predictive Accuracy & AI Personalization:</strong> Delivered 80–90% diagnostic accuracy by pairing custom XGBoost and deep learning models with local LLMs for automated health recommendations, earning 3rd place at UMKC Hack-A-Roo.
             </li>
+            <br></br>
             <li>
               <strong>Accelerating Deep Learning Pipelines:</strong> Built GPU-accelerated training pipelines for computer vision models, streamlining large-scale image dataset processing for defense applications.
             </li>
+            <br></br>
             <li>
               <strong>Deploying Secure, Production-Grade Architecture:</strong> Engineered automated CI/CD cloud pipelines and secure EHR workflows to ensure compliance and high availability across regulated environments.
             </li>
+            <br></br>
             <li>
               <strong>Maximizing Powertrain Efficiency & Cost Savings:</strong> Programmed and integrated software for an updated traction motor system in heavy-duty electric trucks, reducing operational costs and improving vehicle efficiency.
             </li>
